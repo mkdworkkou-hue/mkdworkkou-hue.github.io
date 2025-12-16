@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>ポートフォリオ | 向田晃平</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--
+    このサイトはHTML / CSSの学習を兼ねて作成しました。
+    できるだけシンプルに、あとから修正しやすい構成にしています。
+  -->
+
+  <header class="hero">
+    <div class="container">
+      <h1>向田 晃平</h1>
+      <p class="role">RPA・業務自動化エンジニア</p>
+      <p class="tagline">
+        業務を理解してから、自動化することを大切にしています。
+      </p>
+
+      <nav class="nav">
+        <a href="#about">自己紹介</a>
+        <a href="#skills">スキル</a>
+        <a href="#projects">制作物</a>
+        <a href="#contact">連絡先</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section id="about" class="card">
+      <h2>自己紹介</h2>
+      <p>
+        主にUiPathを使った業務自動化・RPA作成を学習・実務で行っています。
+        現場で「手作業が多い」「時間がかかっている」業務を整理し、
+        無理のない形で自動化することを意識しています。
+      </p>
+      <p>
+        このポートフォリオサイトも、GitHub Pagesの仕組みを理解するために
+        HTMLとCSSを使って自作しました。
+      </p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>スキル</h2>
+      <ul>
+        <li>UiPath：Webスクレイピング、Excel出力、条件分岐</li>
+        <li>Python：pandasを使った簡単なデータ加工</li>
+        <li>HTML / CSS：基礎レベル（本サイトを自作）</li>
+        <li>業務整理・手順書作成</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>制作物・取り組み</h2>
+
+      <div class="project">
+        <h3>不動産サイト物件情報スクレイピング</h3>
+        <p>
+          UiPathを使って物件情報を取得し、Excelに自動出力するフローを作成しました。
+          詳細ページの構造が複数あるため、条件分岐で対応しています。
+        </p>
+        <p class="tech">使用技術：UiPath / Excel</p>
+      </div>
+
+      <div class="project">
+        <h3>RPA学習用スクレイピング練習</h3>
+        <p>
+          練習サイトからデータを取得するRPAを作成。
+          セレクターの確認や安定動作を意識して作りました。
+        </p>
+        <p class="tech">使用技術：UiPath</p>
+      </div>
+
+    </section>
+
+    <section id="contact" class="card">
+      <h2>連絡先</h2>
+      <p>ご連絡は以下からお願いいたします。</p>
+      <p class="mono">mkd.work.kou@gmail.com</p>
+
+      <a class="btn" href="https://github.com/" target="_blank">
+        GitHub
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="container footer">
+    <small>
+      このサイトはGitHub Pagesを使って公開しています。
+    </small>
+  </footer>
+
+</body>
+</html>

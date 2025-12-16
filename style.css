@@ -1,0 +1,9 @@
+body{margin:0;font-family:system-ui;background:#0b0f19;color:#e6edf6}
+.container{width:min(900px,calc(100% - 32px));margin:auto}
+.hero{padding:60px 0}
+.role{color:#7aa2ff}
+.nav a{margin-right:10px;color:#e6edf6;text-decoration:none}
+.card{background:#121a2a;padding:20px;border-radius:12px;margin-bottom:20px}
+.mono{font-family:monospace;color:#7aa2ff}
+.btn{color:#e6edf6;border:1px solid #7aa2ff;padding:8px 12px;border-radius:8px;text-decoration:none}
+.footer{color:#b7c2d6;padding-bottom:40px}
